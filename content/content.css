@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+}
+.titleBar {
+  background-color: black;
+  width: 100%;
+  padding: 15px 0px 0px 50px;
+  height: 90px;
+}
+.titleBar img {
+  float: left;
+}
+.titleBar h1 {
+  color: white;
+  font-style: italic;
+}
