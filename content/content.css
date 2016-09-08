@@ -1,16 +1,23 @@
 body {
   margin: 0px;
 }
+
 .titleBar {
   background-color: black;
   width: 100%;
   padding: 15px 0px 0px 50px;
   height: 90px;
 }
+
 .titleBar img {
   float: left;
 }
-.titleBar h1 {
+
+.titleBar a {
+  text-decoration: none;
+}
+
+.titleBar a h1 {
   color: white;
   font-style: italic;
 }
@@ -35,10 +42,12 @@ body {
   height: 100%;
   text-align: center;
 }
+
 .navbar ul li a {
   text-decoration: none;
   color: black;
 }
+
 /*This changes the background color and color of the font when the cursor hovers over the link*/
 .navbar ul li a:hover {
   background-color: grey;
@@ -49,7 +58,6 @@ body {
 .navbar ul #navbarLastLi {
   border-right: 1px solid darkgrey;
 }
-
 
 footer {
   width: 100%;
