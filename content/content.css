@@ -15,6 +15,34 @@ body {
   font-style: italic;
 }
 
+.navbar {
+  margin-top: -16px;
+  padding-right: 0px;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  height: 40px;
+}
+
+.navbar ul li {
+  display: inline;
+  font-size: 2em; /* 1em = 16px*/
+  border-right: 1px solid black;
+  padding: 0px 80px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul #navbarLastLi {
+  border-right: 1px solid darkgrey;
+}
+
+
 footer {
   width: 100%;
   border-top: 1px solid #d3d3d3;
