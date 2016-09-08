@@ -18,7 +18,7 @@ body {
 .navbar {
   margin-top: -16px;
   padding-right: 0px;
-  background-color: darkgrey;
+  background-color: #666666;
   width: 100%;
 }
 
@@ -32,11 +32,17 @@ body {
   font-size: 2em; /* 1em = 16px*/
   border-right: 1px solid black;
   width: 24%;
+  height: 100%;
   text-align: center;
 }
 .navbar ul li a {
   text-decoration: none;
   color: black;
+}
+/*This changes the background color and color of the font when the cursor hovers over the link*/
+.navbar ul li a:hover {
+  background-color: grey;
+  color: white;
 }
 
 /*This removes the right border that is on all of the right li's*/
