@@ -14,3 +14,11 @@ body {
   color: white;
   font-style: italic;
 }
+
+footer {
+  width: 100%;
+  border-top: 1px solid #d3d3d3;
+  position:fixed;
+  bottom:0px;
+  color: #d3d3d3;
+}
