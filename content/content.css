@@ -28,16 +28,18 @@ body {
 }
 
 .navbar ul li {
-  display: inline;
+  display: inline-block;
   font-size: 2em; /* 1em = 16px*/
   border-right: 1px solid black;
-  padding: 0px 80px;
+  width: 24%;
+  text-align: center;
 }
 .navbar ul li a {
   text-decoration: none;
   color: black;
 }
 
+/*This removes the right border that is on all of the right li's*/
 .navbar ul #navbarLastLi {
   border-right: 1px solid darkgrey;
 }
