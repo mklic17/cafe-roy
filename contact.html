@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="mainModule">
+  <head>
+    <meta charset="utf-8">
+    <title>Cafe Roy</title>
+    <link rel="stylesheet" href="content/content.css">
+    <!-- /*<style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>*/ -->
+  </head>
+  <body ng-controller="MainController">
+
+    <div class="titleBar">
+      <img src="images/coffee.jpg" width="75px" height="75px"/>
+      <a href="#"><h1>Cafe Roy</h1></a>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="#">About<a/></li>
+        <li><a href="#">Drinks</a></li>
+        <li><a href="#">Food</a></li>
+        <li id="navbarLastLi"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+      <div id="map"></div>
+
+
+
+    <footer>
+      <p>Created by: Rey-Nathan Gray, Mitchell Klich, Robert Ramirez</p>
+    </footer>
+
+    <!-- please don't abuse my API key. I was going to add it to a page that wouldn't commit but then I would forget when we turned the project in... This part is'nt secure because of that but I have set some restrictions onto the key to try and secure it better. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCT8YGe3pKDN1U9rXeJmrdOkgjkaORBIAI&callback=initMap" async defer ></script>
+    <script src="contact.js"></script>
+
+  </head>
+  </body>
+  </html>
