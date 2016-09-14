@@ -1,3 +1,8 @@
+$('.emailUs').on('click', function(ev){
+  ev.preventDefaults;
+  window.location.href = 'mailto:cafeRoy@DePauw.edu?subject=ContactUs&=Hello,';
+});
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 39.6400, lng: -86.8630},
