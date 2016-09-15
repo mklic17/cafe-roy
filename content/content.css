@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  min-width: 1100px;
+  max-width: 1400px;
 }
 
 .titleBar {
@@ -58,6 +60,9 @@ body {
 .navbar ul #navbarLastLi {
   border-right: 1px solid darkgrey;
 }
+.mainContentHomePage {
+  width: 100%;
+}
 
 .mainContentHomePage .title {
   text-align: center;
@@ -68,12 +73,16 @@ body {
 .mainContentHomePage .title h1 {
   font-family: "Times New Roman", Georgia, Serif;
 }
-.mainContentHomePage .picture {
-  
+.mainContentHomePage .picture .left{
+  background-color: red;
+  width: 40%;
+  float: left;
 }
 
-.mainContentHomePage .picture img {
-
+.mainContentHomePage .picture .right{
+  width: 40%;
+  background-color: blue;
+  float: right;
 }
 
 
