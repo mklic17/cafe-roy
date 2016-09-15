@@ -74,14 +74,14 @@ body {
   font-family: "Times New Roman", Georgia, Serif;
 }
 .mainContentHomePage .picture .left{
-  background-color: red;
+  /*background-color: red;*/
   width: 40%;
   float: left;
 }
 
 .mainContentHomePage .picture .right{
   width: 40%;
-  background-color: blue;
+  /*background-color: blue;*/
   float: right;
 }
 
@@ -97,7 +97,7 @@ footer {
   border-top: 1px solid #d3d3d3;
   position:fixed;
   bottom:0px;
-  color: #d3d3d3;
+  color: ;
 }
 
 
@@ -108,5 +108,3 @@ footer {
 .menuitems{
   font-family: Times New Roman;
 }
-
-
