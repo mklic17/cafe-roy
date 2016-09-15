@@ -1,7 +1,7 @@
 body {
   margin: 0px;
-  min-width: 1100px;
-  max-width: 1400px;
+  /*min-width: 1100px;*/
+  /*max-width: 1070px;*/
 }
 
 .titleBar {
@@ -58,7 +58,7 @@ body {
 
 /*This removes the right border that is on all of the right li's*/
 .navbar ul #navbarLastLi {
-  border-right: 1px solid darkgrey;
+  border-right: 1px solid #666666;
 }
 .mainContentHomePage {
   width: 100%;
