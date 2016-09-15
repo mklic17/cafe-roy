@@ -59,6 +59,24 @@ body {
   border-right: 1px solid darkgrey;
 }
 
+.mainContentHomePage .title {
+  text-align: center;
+  padding: 20px 0px;
+  font-size:1.5em;
+}
+
+.mainContentHomePage .title h1 {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.mainContentHomePage .picture {
+  
+}
+
+.mainContentHomePage .picture img {
+
+}
+
+
 #map {
   height: 25em;
   width: 25em;

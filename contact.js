@@ -18,11 +18,11 @@ function initMap() {
      '</div>'+
      '<h1 id="firstHeading" class="firstHeading">Cafe Roy</h1>'+
      '<div id="bodyContent">'+
-     '<p><b>Cafe Roy</b>, is located on the northeastern part of Roy\'O West Library.  </p>'+
+     '<p><b>Cafe Roy</b>, is located on the northeastern part of Roy\'O West Library. If you would like to enjoy a warm cup of coffee, or a refreshing snack, stop by.</p>'+
      '<a href="index.html">Home</a> '+
-
      '</div>'+
      '</div>';
+     
  var infowindow = new google.maps.InfoWindow({
    content: contentString
  });
