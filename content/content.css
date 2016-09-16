@@ -22,6 +22,7 @@ body {
 .titleBar a h1 {
   color: white;
   font-style: italic;
+  padding-bottom: 10px;
 }
 
 .navbar {
@@ -40,7 +41,7 @@ body {
   display: inline-block;
   font-size: 2em; /* 1em = 16px*/
   border-right: 1px solid black;
-  width: 24%;
+  width: 20%;
   height: 100%;
   text-align: center;
 }
@@ -85,7 +86,6 @@ body {
   float: right;
 }
 
-
 #map {
   height: 25em;
   width: 25em;
@@ -97,9 +97,8 @@ footer {
   border-top: 1px solid #d3d3d3;
   position:fixed;
   bottom:0px;
-  color: ;
+  /*color: ;*/
 }
-
 
 .pageheading{
   font-family: Times New Roman;
@@ -107,4 +106,20 @@ footer {
 
 .menuitems{
   font-family: Times New Roman;
+}
+
+div .mainContentAbout {
+  width: 100%;
+
+}
+div .mainContentAbout .text {
+  width: 60%;
+  float: left;
+  font-weight: bold;
+  padding-right: 20px;
+}
+div .mainContentAbout #images {
+    width: 40%;
+    float: left;
+  /*padding-bottom:20px;*/
 }
