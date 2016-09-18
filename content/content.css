@@ -1,7 +1,7 @@
+/*Template*/
 body {
   margin: 0px;
-  /*min-width: 1100px;*/
-  /*max-width: 1070px;*/
+  min-width: 750px;
 }
 
 .titleBar {
@@ -61,6 +61,16 @@ body {
 .navbar ul #navbarLastLi {
   border-right: 1px solid #666666;
 }
+
+footer {
+  width: 100%;
+  border-top: 1px solid #d3d3d3;
+  position:fixed;
+  bottom:0px;
+}
+/*End Template*/
+
+/*HomePage*/
 .mainContentHomePage {
   width: 100%;
 }
@@ -75,39 +85,36 @@ body {
   font-family: "Times New Roman", Georgia, Serif;
 }
 .mainContentHomePage .picture .left{
-  /*background-color: red;*/
   width: 40%;
   float: left;
 }
 
 .mainContentHomePage .picture .right{
   width: 40%;
-  /*background-color: blue;*/
   float: right;
+}
+/*End HomePage*/
+
+/*Contact Page*/
+div #title {
+  padding-top: 30px;
+}
+
+table {
+  font-size: 1.2em;
 }
 
 #map {
-  height: 25em;
-  width: 25em;
-  float: left;
+  height: 20em;
+  width: 20em;
 }
-
-footer {
-  width: 100%;
-  border-top: 1px solid #d3d3d3;
-  position:fixed;
-  bottom:0px;
-  /*color: ;*/
+.address h4 {
+  text-align: center;
 }
+/*End Contact Page*/
 
-.pageheading{
-  font-family: Times New Roman;
-}
 
-.menuitems{
-  font-family: Times New Roman;
-}
-
+/*About Page*/
 div .mainContentAbout {
   width: 100%;
 
