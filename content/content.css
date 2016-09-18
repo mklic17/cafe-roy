@@ -117,8 +117,9 @@ footer {
 
 .mainContentHomePage h1 {
   font-family: "Times New Roman", Georgia, Serif;
-  font-size:2em;
+  font-size:3.5em;
   width: 100%;
+  font-weight: bold;
 }
 
 /*End Index Page*/
@@ -144,14 +145,15 @@ table {
 
 /*About Page*/
 div .mainContentAbout {
-  width: 100%;
+  width: 150%;
 
 }
 div .mainContentAbout .text {
-  width: 60%;
+  width: 50%;
   float: left;
   font-weight: bold;
   padding-right: 20px;
+  padding-left: 0px;
 }
 div .mainContentAbout #images {
     width: 40%;
