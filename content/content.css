@@ -153,6 +153,7 @@ div .mainContentDrinks {
 div .pictureDrinks {
 
 }
+/*End Drinks Page*/
 
 
 /*Food Page*/
@@ -162,5 +163,17 @@ div .mainContentFood {
 }
 
 div .pictureFood {
+  padding-top: 60px;
+}
+/*End Food Page*/
+
+
+/*Start sides*/
+div .mainContentSides {
+  font-size: 1.5em;
+  padding-top: 100px;
+}
+
+div .pictureSides {
   padding-top: 60px;
 }
