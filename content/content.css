@@ -128,5 +128,17 @@ div .mainContentAbout .text {
 div .mainContentAbout #images {
     width: 40%;
     float: left;
-  /*padding-bottom:20px;*/
 }
+/*End About Page*/
+
+
+/*Desserts Page*/
+div .mainContentDessert {
+  padding-top: 175px;
+  font-size: 1.5em;
+}
+
+div .pictureDessert {
+  padding-top: 150px;
+}
+/*End Desserts Page*/
