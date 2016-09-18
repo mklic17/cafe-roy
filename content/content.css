@@ -151,5 +151,16 @@ div .mainContentDrinks {
 }
 
 div .pictureDrinks {
+
+}
+
+
+/*Food Page*/
+div .mainContentFood {
+  font-size: 1.5em;
+  padding-top: 100px;
+}
+
+div .pictureFood {
   padding-top: 60px;
 }
