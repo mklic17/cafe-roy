@@ -22,7 +22,7 @@ function initMap() {
      '<a href="index.html">Home</a> '+
      '</div>'+
      '</div>';
-     
+
  var infowindow = new google.maps.InfoWindow({
    content: contentString
  });
