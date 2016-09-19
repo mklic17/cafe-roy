@@ -1,7 +1,8 @@
 /*Template*/
 body {
   margin: 0px;
-  min-width: 930px; height:100% /* Stops the scren from resizing and messing up the content */
+  min-width: 930px; /* Stops the screen from resizing and messing up the content */
+  min-height: 700px;
 }
 
 .titleBar {
