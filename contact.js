@@ -16,7 +16,7 @@ function initMap() {
  var contentString = '<div id="content">'+
      '<div id="siteNotice">'+
      '</div>'+
-     '<h1 id="firstHeading" class="firstHeading">Cafe Roy</h1>'+
+     '<h4 id="firstHeading" class="firstHeading">Cafe Roy</h4>'+
      '<div id="bodyContent">'+
      '<p><b>Cafe Roy</b>, is located on the northeastern part of Roy\'O West Library. If you would like to enjoy a warm cup of coffee, or a refreshing snack, stop by.</p>'+
      '<a href="index.html">Home</a> '+

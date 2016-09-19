@@ -69,6 +69,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 1;
 }
 
 .dropdown-content {
@@ -135,8 +136,8 @@ table {
 }
 
 #map {
-  height: 20em;
-  width: 20em;
+  height: 23em;
+  width: 23em;
 }
 .address h4 {
   text-align: center;
