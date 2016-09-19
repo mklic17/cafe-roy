@@ -56,7 +56,6 @@ body {
 
 /*This changes the background color and color of the font when the cursor hovers over the link*/
 .navbar ul li a:hover {
-  background-color: grey;
   color: white;
 }
 
@@ -97,12 +96,8 @@ body {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: grey;
-}
-
-
 footer {
+  text-align: center;
   width: 100%;
   border-top: 1px solid #d3d3d3;
   position:fixed;
